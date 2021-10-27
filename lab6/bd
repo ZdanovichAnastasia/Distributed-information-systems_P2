@@ -1,0 +1,54 @@
+CREATE SCHEMA IF NOT EXISTS `visit_lectures_ex` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci ;
+USE `visit_lectures_ex` ;
+
+-- -----------------------------------------------------
+-- Table `visit_lectures_ex`.`lecture`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `visit_lectures_ex`.`lecture` (
+  `lectureId` INT NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(45) NOT NULL,
+  `lecturer` VARCHAR(45) NULL DEFAULT NULL,
+  PRIMARY KEY (`lectureId`))
+ENGINE = InnoDB
+AUTO_INCREMENT = 7
+DEFAULT CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_0900_ai_ci;
+
+
+-- -----------------------------------------------------
+-- Table `visit_lectures_ex`.`student`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `visit_lectures_ex`.`student` (
+  `studentId` INT NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(45) NOT NULL,
+  `surname` VARCHAR(45) NOT NULL,
+  `Ngroup` INT NOT NULL,
+  PRIMARY KEY (`studentId`))
+ENGINE = InnoDB
+AUTO_INCREMENT = 6
+DEFAULT CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_0900_ai_ci;
+
+
+-- -----------------------------------------------------
+-- Table `visit_lectures_ex`.`visit`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `visit_lectures_ex`.`visit` (
+  `visitId` INT NOT NULL AUTO_INCREMENT,
+  `lectureId` INT NOT NULL,
+  `studentId` INT NOT NULL,
+  `date` DATE NULL DEFAULT NULL,
+  `is_visit` TINYINT NULL DEFAULT NULL,
+  PRIMARY KEY (`visitId`),
+  INDEX `lecture_fk_idx` (`lectureId` ASC) VISIBLE,
+  INDEX `student_fk_idx` (`studentId` ASC) VISIBLE,
+  CONSTRAINT `lecture_fk`
+    FOREIGN KEY (`lectureId`)
+    REFERENCES `visit_lectures_ex`.`lecture` (`lectureId`),
+  CONSTRAINT `student_fk`
+    FOREIGN KEY (`studentId`)
+    REFERENCES `visit_lectures_ex`.`student` (`studentId`))
+ENGINE = InnoDB
+AUTO_INCREMENT = 9
+DEFAULT CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_0900_ai_ci;
