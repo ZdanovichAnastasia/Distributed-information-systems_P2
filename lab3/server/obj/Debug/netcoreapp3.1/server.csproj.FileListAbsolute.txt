@@ -1,0 +1,16 @@
+D:\УНИВЕР\4 курс 1сем\РИС\lab3\server\bin\Debug\netcoreapp3.1\server.exe
+D:\УНИВЕР\4 курс 1сем\РИС\lab3\server\bin\Debug\netcoreapp3.1\server.deps.json
+D:\УНИВЕР\4 курс 1сем\РИС\lab3\server\bin\Debug\netcoreapp3.1\server.runtimeconfig.json
+D:\УНИВЕР\4 курс 1сем\РИС\lab3\server\bin\Debug\netcoreapp3.1\server.runtimeconfig.dev.json
+D:\УНИВЕР\4 курс 1сем\РИС\lab3\server\bin\Debug\netcoreapp3.1\server.dll
+D:\УНИВЕР\4 курс 1сем\РИС\lab3\server\bin\Debug\netcoreapp3.1\server.pdb
+D:\УНИВЕР\4 курс 1сем\РИС\lab3\server\obj\Debug\netcoreapp3.1\server.csproj.AssemblyReference.cache
+D:\УНИВЕР\4 курс 1сем\РИС\lab3\server\obj\Debug\netcoreapp3.1\server.Form1.resources
+D:\УНИВЕР\4 курс 1сем\РИС\lab3\server\obj\Debug\netcoreapp3.1\server.csproj.GenerateResource.cache
+D:\УНИВЕР\4 курс 1сем\РИС\lab3\server\obj\Debug\netcoreapp3.1\server.GeneratedMSBuildEditorConfig.editorconfig
+D:\УНИВЕР\4 курс 1сем\РИС\lab3\server\obj\Debug\netcoreapp3.1\server.AssemblyInfoInputs.cache
+D:\УНИВЕР\4 курс 1сем\РИС\lab3\server\obj\Debug\netcoreapp3.1\server.AssemblyInfo.cs
+D:\УНИВЕР\4 курс 1сем\РИС\lab3\server\obj\Debug\netcoreapp3.1\server.csproj.CoreCompileInputs.cache
+D:\УНИВЕР\4 курс 1сем\РИС\lab3\server\obj\Debug\netcoreapp3.1\server.dll
+D:\УНИВЕР\4 курс 1сем\РИС\lab3\server\obj\Debug\netcoreapp3.1\server.pdb
+D:\УНИВЕР\4 курс 1сем\РИС\lab3\server\obj\Debug\netcoreapp3.1\server.genruntimeconfig.cache

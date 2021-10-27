@@ -1,0 +1,12 @@
+7|carrot|34|32
+12|apple|12|4
+14|potato|34|2
+15|onion|23|61
+16|tyu|43|34
+17|cccccc|65|78
+18|sddsds|32|6
+19|polkj|56|8
+20|klllkpo|889|5
+21|nnnn|34|5
+22|ooooo|32|7
+23|opopop|56|56
