@@ -1,0 +1,65 @@
+﻿@model IEnumerable<lab6.Models.Visit>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+<form method="get">
+    <div class="form-inline">
+        <label class="control-label">Filter by student and lectures</label>
+        <input class="form-control" type="text"  name="filter" />
+        <input type="submit" value="Filter" class="btn btn-default" />
+    </div>
+</form>
+<br/>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.lecture.name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.student.name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.date)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.is_visit)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+<tr>
+    <td>
+        @Html.ActionLink(linkText: Html.DisplayFor(modelItem => item.lecture.name).ToHtmlString(), actionName: "Details", routeValues: new { id = item.lectureId }, controllerName: "Lectures", htmlAttributes: null)
+    </td>
+    <td>
+        @Html.ActionLink(linkText: Html.DisplayFor(modelItem => item.student.surname).ToHtmlString(), actionName: "Details", routeValues: new { id = item.studentId }, controllerName: "Students", htmlAttributes: null)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.date)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.date)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.is_visit)
+    </td>
+    <td>
+        @Html.ActionLink("Edit", "Edit", new { id = item.visitId }) |
+        @Html.ActionLink("Details", "Details", new { id = item.visitId }) |
+        @Html.ActionLink("Delete", "Delete", new { id = item.visitId })
+    </td>
+</tr>
+}
+
+</table>
