@@ -1,0 +1,6 @@
+D:\УНИВЕР\4 курс 1сем\РИС\lab7\bin\Debug\lab7.exe.config
+D:\УНИВЕР\4 курс 1сем\РИС\lab7\bin\Debug\lab7.exe
+D:\УНИВЕР\4 курс 1сем\РИС\lab7\bin\Debug\lab7.pdb
+D:\УНИВЕР\4 курс 1сем\РИС\lab7\obj\Debug\lab7.csproj.CoreCompileInputs.cache
+D:\УНИВЕР\4 курс 1сем\РИС\lab7\obj\Debug\lab7.exe
+D:\УНИВЕР\4 курс 1сем\РИС\lab7\obj\Debug\lab7.pdb

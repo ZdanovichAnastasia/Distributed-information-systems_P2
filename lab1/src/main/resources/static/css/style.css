@@ -1,0 +1,283 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    background-color: #EBF0F6;
+}
+.content{
+    width: 100%;
+    max-width: 1500px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content{
+    padding-top: 10px;
+}
+
+.input-window{
+    width: 454px;
+    margin-left: 480px;
+    background: #FFFBFB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 24px 57px 24px 57px;
+    text-align: center;
+
+    font-family: cursive;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.input-window h3{
+    font-family: cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 45px;
+
+    color: #000000;
+
+    border-bottom: 1px solid #000000;
+}
+
+.input-window input{
+    width: 293px;
+    height: 33px;
+    background: #FFFFFF;
+    border: 1px solid #21C2F8;
+    box-sizing: border-box;
+    margin-top: 15px;
+}
+
+.input-window div input{
+    width: 200px;
+}
+.input-window .room-sel input{
+    width: auto;
+    height: auto;
+}
+.input-window p{
+    font-size: 20px;
+    line-height: 31px;
+}
+
+.input-window button{
+    height: 42px;
+    background: #21C2F8;
+    border-radius: 30px;
+    border: none;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+.input-window select{
+    width: 293px;
+    height: 33px;
+    background: #FFFFFF;
+    border: 1px solid #21C2F8;
+    box-sizing: border-box;
+}
+input .file-name{
+    width: 293px;
+    height: 33px;
+    background: #FFFFFF;
+    border: 1px solid #21C2F8;
+    box-sizing: border-box;
+}
+
+
+/*///////////////////////////////////////////////////////////////////////////////////*/
+.filter-form{
+    width: 1266px;
+    margin-left: 60px;
+    background: #F3F7F8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 24px 57px;
+}
+
+.filter-form h3{
+    font-family: cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #21C2F8;
+}
+
+.filter-form button, .new-apart-button{
+    width: 237px;
+    height: 45px;
+    margin-left: 1050px;
+    background: #21C2F8;
+    border-radius: 30px;
+    border: none;
+    font-family: Baloo 2;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 31px;
+
+    color: #FFFFFF;
+}
+
+.filter-form select, .filter-form input{
+     width: 219px;
+     height: 33px;
+     background: #FFFFFF;
+     border: 1px solid #21C2F8;
+     box-sizing: border-box;
+ }
+
+.filter-form .roomCount{
+    width: 29px;
+    height: 20px;
+}
+
+
+.filter-form select, .filter-form input{
+    font-family: cursive;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.details, .activity{
+    width: 1156px;
+    margin-left: 110px;
+    margin-top: 45px;
+    background: #F3F7F8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 15px 43px 15px 65px;
+}
+
+.details button{
+    font-family: Baloo 2;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 38px;
+    color: #FFFBFB;
+
+    background: #21C2F8;
+    border-radius: 30px;
+    border: none;
+}
+
+
+.details h3, .details h3 a, .activity h3{
+    text-decoration: none;
+    text-decoration: none;
+    font-family: cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #21C2F8;
+}
+
+.details p{
+    font-family: cursive;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 15px;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////*/
+
+.apart-par button{
+    width: 185px;
+    height: 46px;
+    margin-left: 1000px;
+}
+.apart-par .count{
+    margin-left: 900px;
+}
+
+
+
+.create-button{
+    width: 400px;
+    height: 77px;
+    margin-left: 544px;
+    margin-top: 49px;
+
+    background: #21C2F8;
+    border-radius: 30px;
+    border: none;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 57px;
+    color: #FFFEFE;
+}
+
+
+
+
+.personal_info{
+    width: 1170px;
+    margin-left: 117px;
+    margin-top: 25px;
+    padding: 30px 30px 30px 30px;
+
+    background: #F3F7F8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.personal_info > div{
+    display: inline-block;
+    font-family: cursive;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 45px;
+    align-items: center;
+}
+
+#button {
+    margin-left: 1010px;
+    width: 165px;
+    height: 46px;
+    display: block;
+
+    background: #21C2F8;
+    border-radius: 30px;
+    border: none;
+    text-align: center;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 38px;
+    color: #FFFBFB;
+}
+
+.labels, .values{
+    width: 49%;
+}
+
+.save-txt, .del{
+    width: 600px;
+    height: 77px;
+    margin-left: 450px;
+    margin-top: 41px;
+
+    background: #21C2F8;
+    border-radius: 30px;
+    border: none;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 57px;
+    padding-left: 8px;
+    text-decoration: none;
+
+    color: #FFFEFE;
+}
